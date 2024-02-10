@@ -6,11 +6,11 @@ import insta from '../images/instagram.svg'
 import linkin from '../images/linkin.svg'
 import person from '../images/person.svg'
 import { BsArrowRightCircle } from "react-icons/bs";
-
-
 const Home=()=>{
+
+    
     return(<>
-    <div className='my-3 xl:flex'>
+    <div className='my-3 xl:flex  '>
         <div className=' w-3/4 flex mx-auto  xl:pl-16  '>
             <div><img src={Person}></img></div>
             <div className='  my-auto ml-3 space-y-6 pr-4'>
@@ -24,7 +24,7 @@ const Home=()=>{
         <div className='mt-10 px-5 xl:w-3/5  '>
             <div className='flex md:justify-center  '>
                 <h1 className=' font-bold text-3xl text-gray-700 md:text-4xl '>Websites</h1>
-                <span className='my-auto text-orange-600 text-2xl  ml-2 md:text-4xl  '><BsArrowRightCircle /></span>
+                <span className='my-auto text-orange-600 text-2xl  ml-2 md:text-4xl '><BsArrowRightCircle /></span>
 
             </div>
             <h1 className='text-3xl font-bold mb-3 text-gray-700 md:text-4xl md:text-center xl:text-center '>Fit For Purpose.</h1>
@@ -53,6 +53,9 @@ const Home=()=>{
 
 
         </div>
+        
+        
+        
     </div>
     
     </>)
